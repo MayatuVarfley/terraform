@@ -2,25 +2,27 @@ pipeline {
   agent any
   
   stages{
-    stage('bulid'){
+    stage('build'){
       steps{
-        sh 'echo Hello'
+      sh 'echo Hello'
       }
-  stages{
+    }
     stage('package'){
       steps{
-        sh 'echo Hello'
+      sh 'echo Hello'
       }
- stages{
+    }
     stage('deploy'){
       steps{
-        sh 'echo Hello'
+      sh 'echo Hello'
       }
- stages{
+    }
     stage('artifact'){
       steps{
-        sh 'echo Hello'
+      sh 'echo Hello'
       }
     }
   }
+  
 }
+
